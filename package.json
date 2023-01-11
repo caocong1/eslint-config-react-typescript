@@ -1,0 +1,16 @@
+{
+  "name": "@caocong/eslint-config-react-typescript",
+  "version": "1.0.1",
+  "description": "自用eslint rules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caocong1/eslint-config-react-typescript.git"
+  },
+  "author": "caocong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caocong1/eslint-config-react-typescript/issues"
+  },
+  "homepage": "https://github.com/caocong1/eslint-config-react-typescript#readme"
+}
