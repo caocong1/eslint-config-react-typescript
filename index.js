@@ -24,12 +24,6 @@ module.exports = {
     'react-hooks',
   ],
   'rules': {
-    'prettier/prettier': ['error', {
-      'singleQuote': true,
-      'semi': false,
-      'trailingComma': 'all',
-      'printWidth': 120
-    }],
     'react/jsx-wrap-multilines': ['error', {'declaration': false, 'assignment': false}],
     // 'indent': ['error', 2, { 'SwitchCase': 1 }],
     'quotes': ['error', 'single'],
@@ -77,5 +71,11 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'arrow-spacing': 'error',
     'space-before-blocks': 'error',
+    'prettier/prettier': ['error', {
+      'singleQuote': true,
+      'semi': false,
+      'trailingComma': 'all',
+      'printWidth': 120
+    }],
   },
 }
