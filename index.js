@@ -36,7 +36,7 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0, 'maxBOF': 0 }],
     'object-curly-spacing': ['error', 'always'],
     'object-curly-newline': ['error', { 'consistent': true }],
-    'comma-spacing': 'error',
+    // 'comma-spacing': 'error',
     'key-spacing': 'error',
     'space-infix-ops': 'error',
     // 'operator-linebreak': ['error', 'after'],
