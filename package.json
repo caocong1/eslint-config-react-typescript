@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/caocong1/eslint-config-react-typescript/issues"
   },
-  "homepage": "https://github.com/caocong1/eslint-config-react-typescript#readme"
+  "homepage": "https://github.com/caocong1/eslint-config-react-typescript#readme",
+  "scripts": {
+    "p": "if test -z $commit; then echo 请输入commit={提交信息}; else pnpm build && git add -A && git commit -m $commit && pnpm version patch && git push && pnpm publish; fi"
+  }
 }
