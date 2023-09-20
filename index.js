@@ -67,6 +67,7 @@ module.exports = {
     // 'react/jsx-indent': [2, 2, { checkAttributes: true, indentLogicalExpressions: true }],
     'react/jsx-first-prop-new-line': [2, 'multiline'],
     'react/jsx-newline': [2, { prevent: true }],
+    'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'arrow-spacing': 'error',
