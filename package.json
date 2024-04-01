@@ -17,6 +17,7 @@
     "p": "if test -z $commit; then echo 请输入commit={提交信息}; else git add -A && git commit -m $commit && pnpm version patch && git push && pnpm publish; fi"
   },
   "peerDependencies": {
+    "@tanstack/eslint-plugin-query": "5.x",
     "@typescript-eslint/eslint-plugin": "7.x",
     "@typescript-eslint/parser": "7.x",
     "eslint": "8.x",
