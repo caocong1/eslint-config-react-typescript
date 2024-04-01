@@ -1,6 +1,6 @@
 {
   "name": "@caocong/eslint-config-react-typescript",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "description": "自用eslint rules",
   "main": "index.js",
   "repository": {
@@ -15,5 +15,18 @@
   "homepage": "https://github.com/caocong1/eslint-config-react-typescript#readme",
   "scripts": {
     "p": "if test -z $commit; then echo 请输入commit={提交信息}; else git add -A && git commit -m $commit && pnpm version patch && git push && pnpm publish; fi"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "7.x",
+    "@typescript-eslint/parser": "7.x",
+    "eslint": "8.x",
+    "eslint-import-resolver-alias": "1.x",
+    "eslint-import-resolver-typescript": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-oxlint": "0.x",
+    "eslint-plugin-react": "7.x",
+    "oxlint": "0.x",
+    "prettier": "3.x",
+    "typescript": "5.x"
   }
 }
