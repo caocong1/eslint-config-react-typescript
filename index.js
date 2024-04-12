@@ -49,5 +49,6 @@ module.exports = {
     'linebreak-style': 'off',
     'import/no-unresolved': 'error',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
+    "react/prop-types": "off"
   },
 }
