@@ -28,7 +28,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'eslint-plugin-react-compiler'],
   settings: {
     react: {
       version: 'detect',
@@ -52,6 +52,7 @@ module.exports = {
     "react/prop-types": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/no-explicit-any": "warn"
+    "@typescript-eslint/no-explicit-any": "warn",
+    'react-compiler/react-compiler': "error",
   },
 }
