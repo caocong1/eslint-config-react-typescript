@@ -1,6 +1,6 @@
 {
   "name": "@caocong/eslint-config-react-typescript",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "自用eslint rules",
   "main": "index.js",
   "repository": {
