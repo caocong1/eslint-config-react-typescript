@@ -49,6 +49,8 @@ module.exports = {
     'linebreak-style': 'off',
     'import/no-unresolved': 'error',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   },
 }
