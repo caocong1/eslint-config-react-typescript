@@ -54,6 +54,7 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-explicit-any": "warn",
     // 'react-compiler/react-compiler': "error",
-    "import/default": "off"
+    "import/default": "off",
+    "import/no-named-as-default-member": "off"
   },
 }
