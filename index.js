@@ -54,5 +54,6 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/no-explicit-any": "warn",
     'react-compiler/react-compiler': "error",
+    "import/default": "off"
   },
 }
